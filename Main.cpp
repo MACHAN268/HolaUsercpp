@@ -3,15 +3,20 @@
 using namespace std;
 
 int main(){
-    string user;
+
+    
+    string NOMBRE;
     
     cout<<"Ingrese su nombre "<<endl;
 
-    cin>>user;
+    cin>>NOMBRE;
 
-    if (user != "" || user != " "){
-        cout<<"Hola "<<user<<endl;
+    if (NOMBRE != "" || NOMBRE != " "){
+        
+        cout<<"Hola "<<NOMBRE<<endl;
+        
     }else{
+        
         cout <<"HOLA MUNDO"<<endl;
     }
 
